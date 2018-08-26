@@ -4,7 +4,7 @@ str(data)
 
 #min-max normalization
 data$loud=(data$loud-min(data$loud))/(max(data$loud)-min(data$loud))
-data$tempo=(data$tempo-min(data$tempo))/(max(data$tempo)-min(data$tempo))
+data$tempo=(data$tempo-min(data$tempo))/(max(data$tempo)~min(data$tempo))
 
 #data partition
 set.seed(222)
@@ -23,14 +23,14 @@ n=neuralnet(playlist~acou+dance+energy+loud+speech+tempo+val,
             hidden = c(4),
             err.fct="ce",
             linear.output = FALSE,
-            algorithm = "backprop",
+            algoritm = "backprop",
             learningrate = 0.01)
 plot(n)
 
 #prediction
 output=compute(n,training[,-1])
 output
-head(output$net.result)
+head(output$net,result)
 head(training[1,])
 
 
@@ -46,7 +46,7 @@ tab1
 #confuisions matrix & missclasification error - testing
 output=compute(n,testing[,-1])
 p2=output$net.result
-pred2=ifelse(p2>0.5,1,0)
+pred2=iflse(p2>0.5,1,0)
 tab2=table(pred2,testing$playlist)
 tab2
 
