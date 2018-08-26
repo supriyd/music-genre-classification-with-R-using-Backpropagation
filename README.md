@@ -1,5 +1,5 @@
 # Artificial-Neural-Network-Backpropagation-with-R
-ANN Backpropagation kali ini saya gunakan untuk mengklasifikasikan genre musik Pop dan Klasik pada playlist saya yang ada di Spotify. Data musik yang saya gunakan diunduh dengan Python seperti pada postingan sebelumnya.
+ANN Backpropagation kali ini saya gunakan untuk mengklasifikasikan genre musik Pop (genre pop= 0) dan Klasik (genre klasik = 1)pada playlist saya yang ada di Spotify. Data musik yang saya gunakan diunduh dengan Python seperti pada postingan sebelumnya.
 
 # Tahapan Analisis
 1. Siapkan data (data yg saya gunakan data2803.csv)
