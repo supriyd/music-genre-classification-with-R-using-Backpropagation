@@ -9,10 +9,12 @@ ANN Backpropagation kali ini saya gunakan untuk mengklasifikasikan genre musik P
 5. Hasil prediksi dengan data training
 6. Hasil prediksi dengan data testing
 
+hasil prediksi berdasarkan penelitian saya untuk data training tidak terdapat kesalahan atau 100%. sementara untuk data testingnya persentasi klasifikasinya 99,5%.
+
 walapun terlihat singkat dan mudah Backpropagation membutuhkan ketelitian dan pertimbangan dalam prosesnya hingga mampu memperoleh hasil terbaik.
 jika ada yang ingin ditanyakan atau sharing bisa hubungi via www.linkedin.com/in/spryd
 
 Best regards,
 
 Supriyadi
-#
+
